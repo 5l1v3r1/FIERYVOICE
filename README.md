@@ -5,19 +5,9 @@ This is a simple script to generate a random name to be used for anything. It si
 concatenates a randomly chosen adjective, and noun from a list, and prints the result. 
 
 # Example Output
-~/D/B3rlin ❯❯❯ python B3rlin.py
- 
 
- ####   ####           ##      #
- #   #     #            #
- ####    ###   # #      #     ##    ###
- #   #     #   ## #     #      #    #  #
- #   #     #   #        #      #    #  #
- ####   ####   #       ###    ###   #  #
+![alt text](https://raw.githubusercontent.com/nins3i/B3rlin/B3rlin.png)
 
-Generate a project name like a 3 letter agency!
-
-Your new codename is: SPARKLYDARK
 
 # Soon
 Will add a counter function to print a chosen number of names at a time. 
