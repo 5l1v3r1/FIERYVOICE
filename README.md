@@ -6,7 +6,7 @@ concatenates a randomly chosen adjective, and noun from a list, and prints the r
 
 # Example Output
 
-![alt text](https://raw.githubusercontent.com/nins3i/B3rlin/B3rlin.png)
+![alt text](https://github.com/nins3i/B3rlin/blob/master/B3rlin.png)
 
 
 # Soon
