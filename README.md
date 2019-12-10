@@ -12,4 +12,4 @@ Use the -n arguement to print x number of codenames.
 
 
 # Soon
-Will add a counter function to print a chosen number of names at a time. 
+[x] Will add a counter function to print a chosen number of names at a time. 
