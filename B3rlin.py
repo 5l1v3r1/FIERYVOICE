@@ -1,4 +1,10 @@
-import random
+import random, argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument('-n', help='Number of times to run', dest='num', required=False)
+
+args = parser.parse_args()
 
 def banner():
     logo = """ \n
@@ -8,8 +14,9 @@ def banner():
  #   #     #   ## #     #      #    #  #
  #   #     #   #        #      #    #  #
  ####   ####   #       ###    ###   #  #
-
+-------------------------------------------------
 Generate a project name like a 3 letter agency!
+-------------------------------------------------
 """
     print(logo)
 
@@ -27,7 +34,17 @@ def B3rlin():
 
 def main():
     banner()
-    B3rlin()
+    if args.num != "":
+        try:
+            _num = int(args.num)
+            for i in range(_num):
+                B3rlin()
+
+        except Exception, e:
+            print("Error encountered... \nReview the following... " + str(e))
+
+    else:
+        print("That's not how this works... ;)")
 
 if __name__ == "__main__":
     main()
