@@ -1,4 +1,4 @@
-# B3rlin
+# FIERYVOICE
 A random idea to provide a laugh, and the occasional gem. 
 
 This is a simple script to generate a random name to be used for anything. It simply
@@ -8,7 +8,7 @@ Use the -n arguement to print x number of codenames.
 
 # Example Output
 
-![alt text](https://github.com/nins3i/B3rlin/blob/master/B3rlin1.png)
+![alt text](https://github.com/nins3i/FIERYVOICE/blob/master/FIERYVOICE.png)
 
 
 # Soon
